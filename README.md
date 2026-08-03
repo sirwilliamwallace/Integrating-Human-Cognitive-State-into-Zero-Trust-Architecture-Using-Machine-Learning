@@ -8,6 +8,10 @@
 
 #### Dataset
 
+- Extract the dataset from this repository 
+
+OR
+
 - Download the Pillai dataset from: https://data.mendeley.com/preview/dp8g983t38?a=1a80ae60-6591-4a0a-b20a-4be2de002df3
 
 - Extract it to:
@@ -55,7 +59,8 @@ python script.py
 Author: Amirhossein Shekooh
 Date: Aug 2026
 York St John University
-University Student ID: 238168435
-University email address: amirhossein.shekoo1@yorksj.ac.uk
-Email address: shekooha696@gmail.com
 ```
+
+Disclaimer
+
+This repository contains the implementation developed for an undergraduate dissertation at York St John University. It is intended as a research proof-of-concept and should not be considered a production-ready Zero Trust implementation.
