@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "Neurobehavioral Resilience within Zero Trust Architecture: A Human Adaptive Defence Framework"
+message: "If you use this repository, please cite it as follows."
+type: software
+
+authors:
+  - family-names: Shekooh
+    given-names: Amirhossein
+
+repository-code: "https://github.com/sirwilliamwallace/Integrating-Human-Cognitive-State-into-Zero-Trust-Architecture-Using-Machine-Learning"
+
+license: MIT
+
+abstract: >
+  Undergraduate dissertation artefact demonstrating a proof-of-concept
+  integration of human cognitive workload into Zero Trust Architecture
+  using eye-tracking telemetry and a Random Forest classifier.
+
+keywords:
+  - Zero Trust
+  - Cybersecurity
+  - Machine Learning
+  - Eye Tracking
+  - Human Factors
+  - Random Forest
+
+version: "1.0"
+
+date-released: "2026-08-03"
