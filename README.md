@@ -1,66 +1,47 @@
-# Neurobehavioral Resilience within Zero Trust Architecture:  A Human Adaptive Defence Framework
+# Neurobehavioral Resilience within Zero Trust Architecture
 
-## Adaptive Zero Trust Architecture
+A human-adaptive defence proof-of-concept integrating cognitive-state data into a Zero Trust-style policy model.
 
-### Requirements
-
+**Requirements:**
 - Python 3.12
 
-#### Dataset
+**Dataset**
+- Option A: extract the dataset from the original repository: https://github.com/sirwilliamwallace/Integrating-Human-Cognitive-State-into-Zero-Trust-Architecture-Using-Machine-Learning
+- Option B: download the Pillai dataset from Mendeley: https://data.mendeley.com/preview/dp8g983t38?a=1a80ae60-6591-4a0a-b20a-4be2de002df3
+- Extract the dataset into the project `Data` folder (path: `./Data`).
 
-- Extract the dataset from this repository 
-
-OR
-
-- Download the Pillai dataset from: https://data.mendeley.com/preview/dp8g983t38?a=1a80ae60-6591-4a0a-b20a-4be2de002df3
-
-- Extract it to:
-
-```text
-/Data
-```
-
-- Install dependencies with:
+**Install dependencies**
+Install the Python requirements with:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## How to Run?
-
-Run the notebook:
+**Run**
+- Notebook: start Jupyter and open `main.ipynb`:
 
 ```bash
 jupyter notebook main.ipynb
 ```
 
-Or run the script:
+- Script: run the main script directly:
 
 ```bash
 python script.py
 ```
 
-## Expected outputs
+**Expected outputs**
+Running the notebook or script will create an `Output` folder containing the analysis figures:
+- `1_confusion_matrix.png`, `1_confusion_matrix.pdf`
+- `2_roc.png`, `2_roc.pdf`
+- `3_feature_importance.png`, `3_feature_importance.pdf`
+- `4_pupil_delta_distribution.png`, `4_pupil_delta_distribution.pdf`
+- `5_policy_distribution.png`, `5_policy_distribution.pdf`
 
-- A folder named Output will get created containing:
-    - 1_confusion_matrix.png
-    - 1_confusion_matrix.pdf
-    - 2_roc.png
-    - 2_roc.pdf
-    - 3_feature_importance.png
-    - 3_feature_importance.pdf
-    - 4_pupil_delta_distribution.png
-    - 4_pupil_delta_distribution.pdf
-    - 5_policy_distribution.png
-    - 5_policy_distribution.pdf
+**Author**
+- Amirhossein Shekooh
+- York St John University
+- Date: Aug 2026
 
-
-```
-Author: Amirhossein Shekooh
-Date: Aug 2026
-York St John University
-```
-
-Disclaimer
-
-This repository contains the implementation developed for an undergraduate dissertation at York St John University. It is intended as a research proof-of-concept and should not be considered a production-ready Zero Trust implementation.
+**Disclaimer**
+This repository contains the implementation developed for an undergraduate dissertation. It is a research proof-of-concept and not a production-ready Zero Trust implementation.

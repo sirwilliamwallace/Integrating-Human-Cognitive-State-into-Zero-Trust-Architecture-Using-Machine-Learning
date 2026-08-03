@@ -11,7 +11,13 @@ Python 3.12
 pip install -r requirements.txt
 ```
 Dataset:
-Download the Pillai dataset from: https://data.mendeley.com/preview/dp8g983t38?a=1a80ae60-6591-4a0a-b20a-4be2de002df3
+- Get the dataset from this repository:
+    - Link: "https://github.com/sirwilliamwallace/Integrating-Human-Cognitive-State-into-Zero-Trust-Architecture-Using-Machine-Learning"
+    
+
+OR
+
+- Download the Pillai dataset from: https://data.mendeley.com/preview/dp8g983t38?a=1a80ae60-6591-4a0a-b20a-4be2de002df3
 
 Extract the folder `Data`
 
@@ -54,7 +60,4 @@ Expected outputs are:
 Author: Amirhossein Shekooh
 Date: Aug 2026
 York St John University
-University Student ID: 238168435
-University email address: amirhossein.shekoo1@yorksj.ac.uk
-Email address: shekooha696@gmail.com
 ```
