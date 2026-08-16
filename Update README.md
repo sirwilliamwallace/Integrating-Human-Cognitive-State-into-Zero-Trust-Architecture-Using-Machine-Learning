@@ -31,13 +31,13 @@ python script.py
 ```
 
 **Expected outputs**
-Running the notebook or script will create an `Output` folder containing the analysis figures:
+Running the notebook or script will create an `Evaluations-Figures` folder containing the analysis figures:
 - `1_confusion_matrix.png`, `1_confusion_matrix.pdf`
-- `2_roc.png`, `2_roc.pdf`
+- `2_roc_auc_curve.png`, `2_roc_auc_curve.pdf`
 - `3_feature_importance.png`, `3_feature_importance.pdf`
 - `4_pupil_delta_distribution.png`, `4_pupil_delta_distribution.pdf`
-- `5_policy_distribution.png`, `5_policy_distribution.pdf`
-
+- `5_zta_policy_distribution.png`, `5_zta_policy_distribution.pdf`
+    
 **Author**
 - Amirhossein Shekooh
 - York St John University
